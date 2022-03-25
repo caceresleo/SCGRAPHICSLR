@@ -1,0 +1,129 @@
+*{
+	margin: 0;
+	padding: 0;
+
+}
+
+body{
+
+	min-height: 100%;
+	text-align: center;
+	background-color: black;
+	font-size: 16px;
+	font-family: Verdana;
+	color: white;
+	position: relative;
+	overflow-x: hidden;
+}
+
+/*HEADER..........................................................................*/
+
+header{
+	/*display: flex;*/
+
+	width: 100%;
+	height: 15vh;
+}
+
+#nombreempresa{
+}
+
+#nombreempresa h1{
+	margin-left: 3%;
+	margin-top: ;
+    float: left;
+}
+
+#logo{
+	float: right;
+	width: 10vw;
+	height: auto;
+	margin-right: 3%;
+}
+
+
+#logo figure,
+#logo figure img{
+		width: 100%;
+		height: auto;
+}
+header figure img{
+	width: 100%;
+	height: 100%;
+
+}
+#separador{
+	clear: both;
+	width: 100%;
+	height: 1px;
+	position: relative;
+}
+
+/*..... FIN HEADER .............................................*/
+
+/* .... NAVEGADOR ...............................................*/
+#contenidomenu{
+	width: 100%;
+	margin-left: 20%;
+} 
+#contenidomenu #menu{
+	margin-top: -40px;
+}
+#contenidomenu li {
+	display: inline-flex;
+	font: bold 30px Verdana, sans-serif;
+	margin-left: 20px;
+	margin-right: 20px;
+
+}
+
+#contenidomenu li a{
+	text-decoration: none;
+	color: white;
+	}
+/*....... FIN NAVEGADOR  ........................................ */
+
+/*....  SECTION CENTRAL ..........................................*/
+
+.seccion{
+	width: 100%;
+	height: 50vh;
+	background-color: blue;
+}
+
+/* ........ FIN SECTION CENTRAL ..................................*/
+
+/*........ FOOTER ................................................*/
+
+footer{
+	width: 100%;
+	height: 20vh;
+	display: block;
+}
+footer #fotos{
+	display: inline-flex;
+	height: auto;
+}
+footer #titulo p{
+	font: bold 30px Verdana, sans-serif;
+
+}
+.fotosinferiores{
+	width: 25%;
+	margin-left: 6%;
+}
+
+.fotosinferiores figure,
+.fotosinferiores figure img{
+		width: 100%;
+		height: 100%;
+		border-radius: 50%;
+		background-color: transparent;
+		margin-top: 0;
+		margin-left: 0;
+}
+header figure img{
+	width: 100%;
+	height: 100%;
+
+}
